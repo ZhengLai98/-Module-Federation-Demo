@@ -5,7 +5,7 @@ const RemoteButton = React.lazy(() => import("app2/Button"));
 
 const App = () => (
   <div>
-    <h1>Bi-Directional</h1>
+    <h1>Host in the demo</h1>
     <h2>App 1</h2>
     <LocalButton />
     <React.Suspense fallback="Loading Button">

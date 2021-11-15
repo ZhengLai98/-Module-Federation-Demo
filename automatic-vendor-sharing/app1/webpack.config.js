@@ -45,9 +45,9 @@ module.exports = {
       remotes: {
         app2: "app2@http://localhost:3002/remoteEntry.js",
       },
-      exposes: {
-        "./Button": "./src/Button",
-      },
+      // exposes: {
+      //   "./Button": "./src/Button",
+      // },
       shared: {
         ...deps,
         react: {

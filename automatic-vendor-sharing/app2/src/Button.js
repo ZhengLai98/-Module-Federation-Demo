@@ -6,6 +6,6 @@ const style = {
   padding: 12,
 };
 
-const Button = () => <button style={style}>App 2 Button</button>;
+const Button = () => <button style={style}>App 2 Remote Button</button>;
 
 export default Button;
